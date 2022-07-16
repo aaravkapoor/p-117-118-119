@@ -1,0 +1,27 @@
+body{
+    background-color: plum;
+}
+
+h1{
+    background-color: white;
+    color: blue;
+}
+
+#show_sketch{
+    float: right;
+}
+
+canvas{
+    animation-name:crow ;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    border-radius: 15%;
+}
+@keyframes crow{
+    from{box-shadow: 1px 1px 38px blue;}
+    to{box-shadow: 1px 1px 38px red;}
+}
+
+p{
+    font-size: 20px;
+}
